@@ -196,6 +196,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AddressesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MembersController.cs" />
@@ -217,6 +218,10 @@
     <Compile Include="Migrations\201702282233151_updated tables.cs" />
     <Compile Include="Migrations\201702282233151_updated tables.Designer.cs">
       <DependentUpon>201702282233151_updated tables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702282322123_updated View.cs" />
+    <Compile Include="Migrations\201702282322123_updated View.Designer.cs">
+      <DependentUpon>201702282322123_updated View.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -296,6 +301,11 @@
     <Content Include="Views\Members\Details.cshtml" />
     <Content Include="Views\Members\Edit.cshtml" />
     <Content Include="Views\Members\Index.cshtml" />
+    <Content Include="Views\Addresses\Create.cshtml" />
+    <Content Include="Views\Addresses\Delete.cshtml" />
+    <Content Include="Views\Addresses\Details.cshtml" />
+    <Content Include="Views\Addresses\Edit.cshtml" />
+    <Content Include="Views\Addresses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -320,6 +330,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702282233151_updated tables.resx">
       <DependentUpon>201702282233151_updated tables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702282322123_updated View.resx">
+      <DependentUpon>201702282322123_updated View.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
