@@ -10,5 +10,6 @@ namespace TrashPickup.Models
     {
         [Key]
         public int Id { get; set; }
+        public string Zipcode { get; set; }
     }
 }

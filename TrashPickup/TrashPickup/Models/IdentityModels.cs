@@ -30,7 +30,6 @@ namespace TrashPickup.Models
             return new ApplicationDbContext();
         }
 
-
       
         public DbSet<Member> Member { get; set; }
         public DbSet<Worker> Worker { get; set; }
@@ -44,21 +43,6 @@ namespace TrashPickup.Models
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
 
     }
 }
