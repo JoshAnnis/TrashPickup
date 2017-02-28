@@ -12,13 +12,6 @@ namespace TrashPickup.Models
     {
         [Key]
         public int Id { get; set; }
-<<<<<<< HEAD
-
-        [ForeignKey("Zip")]
-        public int ZipRefId { get; set; }
-=======
->>>>>>> 3f37c3f50f7f294c7c8eec2c35a7f96cc596e212
-
         
         public int ZipId { get; set; }
         [ForeignKey("ZipId")]
