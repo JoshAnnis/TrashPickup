@@ -206,12 +206,21 @@
     <Compile Include="Migrations\201702281417093_worker.Designer.cs">
       <DependentUpon>201702281417093_worker.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702281804336_Added Route Table.cs" />
+    <Compile Include="Migrations\201702281804336_Added Route Table.Designer.cs">
+      <DependentUpon>201702281804336_Added Route Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702281817489_Added Actual Route Table.cs" />
+    <Compile Include="Migrations\201702281817489_Added Actual Route Table.Designer.cs">
+      <DependentUpon>201702281817489_Added Actual Route Table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\City.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\Route.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\Worker.cs" />
     <Compile Include="Models\Zip.cs" />
@@ -296,6 +305,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201702281417093_worker.resx">
       <DependentUpon>201702281417093_worker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702281804336_Added Route Table.resx">
+      <DependentUpon>201702281804336_Added Route Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702281817489_Added Actual Route Table.resx">
+      <DependentUpon>201702281817489_Added Actual Route Table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

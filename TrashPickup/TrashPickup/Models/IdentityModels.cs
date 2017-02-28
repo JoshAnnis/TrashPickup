@@ -31,6 +31,7 @@ namespace TrashPickup.Models
         }
 
         public System.Data.Entity.DbSet<TrashPickup.Models.Member> Members { get; set; }
+        public DbSet<Route> Routes { get; set; }
     }
     //public DbSet<Member> Member { get; set; }
 }
