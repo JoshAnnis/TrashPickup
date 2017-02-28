@@ -307,13 +307,11 @@
     <Content Include="Views\Members\Details.cshtml" />
     <Content Include="Views\Members\Edit.cshtml" />
     <Content Include="Views\Members\Index.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Addresses\Create.cshtml" />
     <Content Include="Views\Addresses\Delete.cshtml" />
     <Content Include="Views\Addresses\Details.cshtml" />
     <Content Include="Views\Addresses\Edit.cshtml" />
     <Content Include="Views\Addresses\Index.cshtml" />
-=======
     <Content Include="Views\Workers\Create.cshtml" />
     <Content Include="Views\Workers\Delete.cshtml" />
     <Content Include="Views\Workers\Details.cshtml" />
@@ -344,7 +342,6 @@
     <Content Include="Views\Zips\Details.cshtml" />
     <Content Include="Views\Zips\Edit.cshtml" />
     <Content Include="Views\Zips\Index.cshtml" />
->>>>>>> a4935fd4f1c0d1c590212448a8c18f658df89b34
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
