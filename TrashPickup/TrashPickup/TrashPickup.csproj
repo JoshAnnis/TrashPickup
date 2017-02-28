@@ -196,11 +196,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
-<<<<<<< HEAD
     <Compile Include="Controllers\AddressesController.cs" />
-=======
     <Compile Include="Controllers\CitiesController.cs" />
->>>>>>> a4935fd4f1c0d1c590212448a8c18f658df89b34
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MembersController.cs" />
