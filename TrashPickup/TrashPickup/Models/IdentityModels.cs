@@ -30,26 +30,35 @@ namespace TrashPickup.Models
             return new ApplicationDbContext();
         }
 
-<<<<<<< HEAD
+
       
         public DbSet<Member> Member { get; set; }
         public DbSet<Worker> Worker { get; set; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-        public System.Data.Entity.DbSet<TrashPickup.Models.Member> Members { get; set; }
         public DbSet<Route> Routes { get; set; }
->>>>>>> 91f8d9c2df735afd5f3b89f424d63098c66222ca
+        public DbSet<Address> Address { get; set; }
+        public DbSet<Zip> Zip { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<State> State { get; set; }
+        public DbSet<Payment> Payment { get; set; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
     }
 }
