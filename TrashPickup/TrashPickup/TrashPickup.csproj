@@ -206,9 +206,19 @@
     <Compile Include="Migrations\201702281417093_worker.Designer.cs">
       <DependentUpon>201702281417093_worker.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201702281805485_added a Payment table.cs" />
     <Compile Include="Migrations\201702281805485_added a Payment table.Designer.cs">
       <DependentUpon>201702281805485_added a Payment table.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\201702281804336_Added Route Table.cs" />
+    <Compile Include="Migrations\201702281804336_Added Route Table.Designer.cs">
+      <DependentUpon>201702281804336_Added Route Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702281817489_Added Actual Route Table.cs" />
+    <Compile Include="Migrations\201702281817489_Added Actual Route Table.Designer.cs">
+      <DependentUpon>201702281817489_Added Actual Route Table.cs</DependentUpon>
+>>>>>>> 91f8d9c2df735afd5f3b89f424d63098c66222ca
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -217,7 +227,11 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Member.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\Payment.cs" />
+=======
+    <Compile Include="Models\Route.cs" />
+>>>>>>> 91f8d9c2df735afd5f3b89f424d63098c66222ca
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\Worker.cs" />
     <Compile Include="Models\Zip.cs" />
@@ -303,8 +317,16 @@
     <EmbeddedResource Include="Migrations\201702281417093_worker.resx">
       <DependentUpon>201702281417093_worker.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201702281805485_added a Payment table.resx">
       <DependentUpon>201702281805485_added a Payment table.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\201702281804336_Added Route Table.resx">
+      <DependentUpon>201702281804336_Added Route Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702281817489_Added Actual Route Table.resx">
+      <DependentUpon>201702281817489_Added Actual Route Table.cs</DependentUpon>
+>>>>>>> 91f8d9c2df735afd5f3b89f424d63098c66222ca
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

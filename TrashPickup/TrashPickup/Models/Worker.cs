@@ -11,7 +11,7 @@ namespace TrashPickup.Models
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Route { get; set; }
+        public int Route { get; set; }
 
 
     }
