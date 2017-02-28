@@ -222,6 +222,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\Route.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\Worker.cs" />
     <Compile Include="Models\Zip.cs" />
