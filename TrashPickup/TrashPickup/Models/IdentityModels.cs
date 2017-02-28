@@ -29,5 +29,8 @@ namespace TrashPickup.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<TrashPickup.Models.Member> Members { get; set; }
     }
+    //public DbSet<Member> Member { get; set; }
 }
