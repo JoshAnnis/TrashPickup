@@ -197,7 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AddressesController.cs" />
-    <Compile Include="Controllers\CitiesController.cs" />
+    <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MembersController.cs" />
@@ -228,6 +228,10 @@
     <Compile Include="Migrations\201702282322123_updated View.cs" />
     <Compile Include="Migrations\201702282322123_updated View.Designer.cs">
       <DependentUpon>201702282322123_updated View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703011350413_Added Email on Member table.cs" />
+    <Compile Include="Migrations\201703011350413_Added Email on Member table.Designer.cs">
+      <DependentUpon>201703011350413_Added Email on Member table.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -369,6 +373,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702282322123_updated View.resx">
       <DependentUpon>201702282322123_updated View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703011350413_Added Email on Member table.resx">
+      <DependentUpon>201703011350413_Added Email on Member table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
