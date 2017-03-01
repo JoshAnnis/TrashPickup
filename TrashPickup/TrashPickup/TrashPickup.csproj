@@ -245,6 +245,14 @@
     <Compile Include="Migrations\201703011600443_fixed the login page.Designer.cs">
       <DependentUpon>201703011600443_fixed the login page.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703012133483_got rid of background color.cs" />
+    <Compile Include="Migrations\201703012133483_got rid of background color.Designer.cs">
+      <DependentUpon>201703012133483_got rid of background color.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703012137082_test.cs" />
+    <Compile Include="Migrations\201703012137082_test.Designer.cs">
+      <DependentUpon>201703012137082_test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -397,6 +405,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703011600443_fixed the login page.resx">
       <DependentUpon>201703011600443_fixed the login page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703012133483_got rid of background color.resx">
+      <DependentUpon>201703012133483_got rid of background color.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703012137082_test.resx">
+      <DependentUpon>201703012137082_test.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

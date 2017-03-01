@@ -21,19 +21,7 @@ namespace TrashPickup.Models
         public Address Address { get; set; }
         [ForeignKey("Address")]
         public int AddressId { get; set; }
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
