@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TrashPickup.Models
 {
@@ -84,8 +85,9 @@ namespace TrashPickup.Models
         public string City { get; set; }
         public string State { get; set; }
         public int Zip { get; set; }
-        public string Address { get; set; }
-
+        public Address Address { get; set; }
+        [ForeignKey("Address")]
+        public int AddressId { get; set; }
 
 
 

@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using TrashPickup.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TrashPickup.Models
 {
@@ -16,9 +17,23 @@ namespace TrashPickup.Models
             var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
             // Add custom user claims here
             return userIdentity;
-
-
         }
+        public Address Address { get; set; }
+        [ForeignKey("Address")]
+        public int AddressId { get; set; }
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
