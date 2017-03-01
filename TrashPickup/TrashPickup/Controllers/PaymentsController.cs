@@ -17,7 +17,7 @@ namespace TrashPickup.Controllers
         // GET: Payments
         public ActionResult Index()
         {
-            return View(db.Payments.ToList());
+            return View(db.Payment.ToList());
         }
 
         // GET: Payments/Details/5
@@ -27,7 +27,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Payment payment = db.Payments.Find(id);
+            Payment payment = db.Payment.Find(id);
             if (payment == null)
             {
                 return HttpNotFound();
@@ -50,7 +50,7 @@ namespace TrashPickup.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Payments.Add(payment);
+                db.Payment.Add(payment);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -65,7 +65,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Payment payment = db.Payments.Find(id);
+            Payment payment = db.Payment.Find(id);
             if (payment == null)
             {
                 return HttpNotFound();
@@ -96,7 +96,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Payment payment = db.Payments.Find(id);
+            Payment payment = db.Payment.Find(id);
             if (payment == null)
             {
                 return HttpNotFound();
@@ -109,8 +109,8 @@ namespace TrashPickup.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Payment payment = db.Payments.Find(id);
-            db.Payments.Remove(payment);
+            Payment payment = db.Payment.Find(id);
+            db.Payment.Remove(payment);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

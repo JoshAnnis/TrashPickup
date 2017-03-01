@@ -17,7 +17,7 @@ namespace TrashPickup.Controllers
         // GET: Zips
         public ActionResult Index()
         {
-            return View(db.Zips.ToList());
+            return View(db.Zip.ToList());
         }
 
         // GET: Zips/Details/5
@@ -27,7 +27,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Zip zip = db.Zips.Find(id);
+            Zip zip = db.Zip.Find(id);
             if (zip == null)
             {
                 return HttpNotFound();
@@ -50,7 +50,7 @@ namespace TrashPickup.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Zips.Add(zip);
+                db.Zip.Add(zip);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -65,7 +65,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Zip zip = db.Zips.Find(id);
+            Zip zip = db.Zip.Find(id);
             if (zip == null)
             {
                 return HttpNotFound();
@@ -96,7 +96,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Zip zip = db.Zips.Find(id);
+            Zip zip = db.Zip.Find(id);
             if (zip == null)
             {
                 return HttpNotFound();
@@ -109,8 +109,8 @@ namespace TrashPickup.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Zip zip = db.Zips.Find(id);
-            db.Zips.Remove(zip);
+            Zip zip = db.Zip.Find(id);
+            db.Zip.Remove(zip);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

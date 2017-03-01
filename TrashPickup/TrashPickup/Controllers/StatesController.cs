@@ -17,7 +17,7 @@ namespace TrashPickup.Controllers
         // GET: States
         public ActionResult Index()
         {
-            return View(db.States.ToList());
+            return View(db.State.ToList());
         }
 
         // GET: States/Details/5
@@ -27,7 +27,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            State state = db.States.Find(id);
+            State state = db.State.Find(id);
             if (state == null)
             {
                 return HttpNotFound();
@@ -50,7 +50,7 @@ namespace TrashPickup.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.States.Add(state);
+                db.State.Add(state);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -65,7 +65,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            State state = db.States.Find(id);
+            State state = db.State.Find(id);
             if (state == null)
             {
                 return HttpNotFound();
@@ -96,7 +96,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            State state = db.States.Find(id);
+            State state = db.State.Find(id);
             if (state == null)
             {
                 return HttpNotFound();
@@ -109,8 +109,8 @@ namespace TrashPickup.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            State state = db.States.Find(id);
-            db.States.Remove(state);
+            State state = db.State.Find(id);
+            db.State.Remove(state);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

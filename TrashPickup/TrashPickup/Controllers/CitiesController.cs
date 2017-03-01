@@ -10,14 +10,14 @@ using TrashPickup.Models;
 
 namespace TrashPickup.Controllers
 {
-    public class CitiesController : Controller
+    public class CityController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Cities
         public ActionResult Index()
         {
-            return View(db.Cities.ToList());
+            return View(db.City.ToList());
         }
 
         // GET: Cities/Details/5
@@ -27,7 +27,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            City city = db.Cities.Find(id);
+            City city = db.City.Find(id);
             if (city == null)
             {
                 return HttpNotFound();
@@ -50,7 +50,7 @@ namespace TrashPickup.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Cities.Add(city);
+                db.City.Add(city);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -65,7 +65,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            City city = db.Cities.Find(id);
+            City city = db.City.Find(id);
             if (city == null)
             {
                 return HttpNotFound();
@@ -96,7 +96,7 @@ namespace TrashPickup.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            City city = db.Cities.Find(id);
+            City city = db.City.Find(id);
             if (city == null)
             {
                 return HttpNotFound();
@@ -109,8 +109,8 @@ namespace TrashPickup.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            City city = db.Cities.Find(id);
-            db.Cities.Remove(city);
+            City city = db.City.Find(id);
+            db.City.Remove(city);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

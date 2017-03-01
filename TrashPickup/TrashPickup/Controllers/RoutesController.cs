@@ -39,7 +39,7 @@ namespace TrashPickup.Controllers
         // GET: Routes/Create
         public ActionResult Create()
         {
-            ViewBag.ZipRefId = new SelectList(db.Zips, "Id", "Zipcode");
+            ViewBag.ZipRefId = new SelectList(db.Zip, "Id", "Zipcode");
             return View();
         }
 
@@ -57,7 +57,7 @@ namespace TrashPickup.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.ZipRefId = new SelectList(db.Zips, "Id", "Zipcode", route.ZipRefId);
+            ViewBag.ZipRefId = new SelectList(db.Zip, "Id", "Zipcode", route.ZipId);
             return View(route);
         }
 
@@ -73,7 +73,7 @@ namespace TrashPickup.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.ZipRefId = new SelectList(db.Zips, "Id", "Zipcode", route.ZipRefId);
+            ViewBag.ZipRefId = new SelectList(db.Zip, "Id", "Zipcode", route.ZipId);
             return View(route);
         }
 
@@ -90,7 +90,7 @@ namespace TrashPickup.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.ZipRefId = new SelectList(db.Zips, "Id", "Zipcode", route.ZipRefId);
+            ViewBag.ZipRefId = new SelectList(db.Zip, "Id", "Zipcode", route.ZipId);
             return View(route);
         }
 
