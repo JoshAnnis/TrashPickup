@@ -237,6 +237,10 @@
     <Compile Include="Migrations\201703011428525_fixed the Zip view.Designer.cs">
       <DependentUpon>201703011428525_fixed the Zip view.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703011528209_fixed the register view.cs" />
+    <Compile Include="Migrations\201703011528209_fixed the register view.Designer.cs">
+      <DependentUpon>201703011528209_fixed the register view.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -383,6 +387,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703011428525_fixed the Zip view.resx">
       <DependentUpon>201703011428525_fixed the Zip view.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703011528209_fixed the register view.resx">
+      <DependentUpon>201703011528209_fixed the register view.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
