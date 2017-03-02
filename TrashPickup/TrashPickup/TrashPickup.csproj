@@ -213,10 +213,6 @@
     <Compile Include="Migrations\201702281417093_worker.Designer.cs">
       <DependentUpon>201702281417093_worker.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702281805485_added a Payment table.cs" />
-    <Compile Include="Migrations\201702281805485_added a Payment table.Designer.cs">
-      <DependentUpon>201702281805485_added a Payment table.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201702281817080_updated the identity model.cs" />
     <Compile Include="Migrations\201702281817080_updated the identity model.Designer.cs">
       <DependentUpon>201702281817080_updated the identity model.cs</DependentUpon>
@@ -260,6 +256,10 @@
     <Compile Include="Migrations\201703021658105_updated AccountViewModel.cs" />
     <Compile Include="Migrations\201703021658105_updated AccountViewModel.Designer.cs">
       <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703022020189_menu.cs" />
+    <Compile Include="Migrations\201703022020189_menu.Designer.cs">
+      <DependentUpon>201703022020189_menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -391,9 +391,6 @@
     <EmbeddedResource Include="Migrations\201702281417093_worker.resx">
       <DependentUpon>201702281417093_worker.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702281805485_added a Payment table.resx">
-      <DependentUpon>201702281805485_added a Payment table.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702281817080_updated the identity model.resx">
       <DependentUpon>201702281817080_updated the identity model.cs</DependentUpon>
     </EmbeddedResource>
@@ -426,6 +423,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703021658105_updated AccountViewModel.resx">
       <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703022020189_menu.resx">
+      <DependentUpon>201703022020189_menu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

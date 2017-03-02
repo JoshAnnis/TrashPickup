@@ -7,13 +7,13 @@ namespace TrashPickup.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class addedaPaymenttable : IMigrationMetadata
+    public sealed partial class menu : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addedaPaymenttable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(menu));
         
         string IMigrationMetadata.Id
         {
-            get { return "201702281805485_added a Payment table"; }
+            get { return "201703022020189_menu"; }
         }
         
         string IMigrationMetadata.Source
