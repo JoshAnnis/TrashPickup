@@ -253,17 +253,9 @@
     <Compile Include="Migrations\201703012137082_test.Designer.cs">
       <DependentUpon>201703012137082_test.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703021424478_added PayPal table.cs" />
-    <Compile Include="Migrations\201703021424478_added PayPal table.Designer.cs">
-      <DependentUpon>201703021424478_added PayPal table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201703021551022_fixed login error.cs" />
-    <Compile Include="Migrations\201703021551022_fixed login error.Designer.cs">
-      <DependentUpon>201703021551022_fixed login error.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201703021614084_updated PayPal table.cs" />
-    <Compile Include="Migrations\201703021614084_updated PayPal table.Designer.cs">
-      <DependentUpon>201703021614084_updated PayPal table.cs</DependentUpon>
+    <Compile Include="Migrations\201703021807317_Made dropdown.cs" />
+    <Compile Include="Migrations\201703021807317_Made dropdown.Designer.cs">
+      <DependentUpon>201703021807317_Made dropdown.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -425,11 +417,8 @@
     <EmbeddedResource Include="Migrations\201703012137082_test.resx">
       <DependentUpon>201703012137082_test.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703021551022_fixed login error.resx">
-      <DependentUpon>201703021551022_fixed login error.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703021614084_updated PayPal table.resx">
-      <DependentUpon>201703021614084_updated PayPal table.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703021807317_Made dropdown.resx">
+      <DependentUpon>201703021807317_Made dropdown.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

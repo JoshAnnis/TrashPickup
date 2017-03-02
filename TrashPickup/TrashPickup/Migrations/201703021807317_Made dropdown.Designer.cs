@@ -7,13 +7,13 @@ namespace TrashPickup.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class updatedPayPaltable : IMigrationMetadata
+    public sealed partial class Madedropdown : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(updatedPayPaltable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Madedropdown));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703021614084_updated PayPal table"; }
+            get { return "201703021807317_Made dropdown"; }
         }
         
         string IMigrationMetadata.Source
