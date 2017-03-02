@@ -257,6 +257,10 @@
     <Compile Include="Migrations\201703021807317_Made dropdown.Designer.cs">
       <DependentUpon>201703021807317_Made dropdown.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703021658105_updated AccountViewModel.cs" />
+    <Compile Include="Migrations\201703021658105_updated AccountViewModel.Designer.cs">
+      <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -419,6 +423,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703021807317_Made dropdown.resx">
       <DependentUpon>201703021807317_Made dropdown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703021658105_updated AccountViewModel.resx">
+      <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
