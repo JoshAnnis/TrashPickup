@@ -257,9 +257,9 @@
     <Compile Include="Migrations\201703021658105_updated AccountViewModel.Designer.cs">
       <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703022020189_menu.cs" />
-    <Compile Include="Migrations\201703022020189_menu.Designer.cs">
-      <DependentUpon>201703022020189_menu.cs</DependentUpon>
+    <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.cs" />
+    <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.Designer.cs">
+      <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -424,8 +424,8 @@
     <EmbeddedResource Include="Migrations\201703021658105_updated AccountViewModel.resx">
       <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703022020189_menu.resx">
-      <DependentUpon>201703022020189_menu.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703022039597_fixed dbo.AspNetUsers.resx">
+      <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
