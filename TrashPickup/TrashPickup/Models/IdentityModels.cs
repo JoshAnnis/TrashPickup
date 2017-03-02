@@ -22,6 +22,7 @@ namespace TrashPickup.Models
         [ForeignKey("Address")]
         public int AddressId { get; set; }
         
+        public string Name { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -42,9 +43,10 @@ namespace TrashPickup.Models
         public DbSet<Route> Routes { get; set; }
         public DbSet<Address> Address { get; set; }
         public DbSet<Zip> Zip { get; set; }
-        public DbSet<City> City { get; set; }
+        public DbSet<Cities> City { get; set; }
         public DbSet<State> State { get; set; }
         public DbSet<Payment> Payment { get; set; }
+        public DbSet<PayPal> PayPal { get; set; }
 
 
 

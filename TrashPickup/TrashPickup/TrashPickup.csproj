@@ -253,6 +253,18 @@
     <Compile Include="Migrations\201703012137082_test.Designer.cs">
       <DependentUpon>201703012137082_test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703021424478_added PayPal table.cs" />
+    <Compile Include="Migrations\201703021424478_added PayPal table.Designer.cs">
+      <DependentUpon>201703021424478_added PayPal table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703021551022_fixed login error.cs" />
+    <Compile Include="Migrations\201703021551022_fixed login error.Designer.cs">
+      <DependentUpon>201703021551022_fixed login error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703021614084_updated PayPal table.cs" />
+    <Compile Include="Migrations\201703021614084_updated PayPal table.Designer.cs">
+      <DependentUpon>201703021614084_updated PayPal table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -261,6 +273,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\PayPal.cs" />
     <Compile Include="Models\Route.cs" />
     <Compile Include="Models\State.cs" />
     <Compile Include="Models\Worker.cs" />
@@ -411,6 +424,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703012137082_test.resx">
       <DependentUpon>201703012137082_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703021551022_fixed login error.resx">
+      <DependentUpon>201703021551022_fixed login error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703021614084_updated PayPal table.resx">
+      <DependentUpon>201703021614084_updated PayPal table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

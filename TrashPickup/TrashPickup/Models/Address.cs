@@ -21,7 +21,7 @@ namespace TrashPickup.Models
 
         public int CityId { get; set; }
         [ForeignKey("CityId")]
-        public City City { get; set; }
+        public Cities City { get; set; }
         
        public int ZipId { get; set; }
         [ForeignKey("ZipId")]
