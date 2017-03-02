@@ -265,6 +265,10 @@
     <Compile Include="Migrations\201703021614084_updated PayPal table.Designer.cs">
       <DependentUpon>201703021614084_updated PayPal table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703021658105_updated AccountViewModel.cs" />
+    <Compile Include="Migrations\201703021658105_updated AccountViewModel.Designer.cs">
+      <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -430,6 +434,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703021614084_updated PayPal table.resx">
       <DependentUpon>201703021614084_updated PayPal table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703021658105_updated AccountViewModel.resx">
+      <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
