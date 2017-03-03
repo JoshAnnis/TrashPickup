@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using TrashPickup.Models;
+using System.Collections.Generic;
 
 namespace TrashPickup.Controllers
 {
@@ -17,9 +18,12 @@ namespace TrashPickup.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-
+        ApplicationDbContext context;
         public AccountController()
         {
+            
+            context = new ApplicationDbContext();
+
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
@@ -139,6 +143,8 @@ namespace TrashPickup.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
+            //ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
+            //                                .ToList(), "Name", "Name");
             return View();
         }
 
@@ -165,7 +171,7 @@ namespace TrashPickup.Controllers
 
 
                     user.Address.City = new Cities();
-                user.Address.City = model.City;
+                    user.Address.City = model.City;
 
                     var result = await UserManager.CreateAsync(user, model.Password);
                     if (result.Succeeded)
@@ -180,7 +186,9 @@ namespace TrashPickup.Controllers
 
                         return RedirectToAction("Index", "Home");
                     }
-                    AddErrors(result);
+                ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
+                                      .ToList(), "Name", "Name");
+                AddErrors(result);
                 }
 
                 // If we got this far, something failed, redisplay form
