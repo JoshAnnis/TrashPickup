@@ -7,13 +7,13 @@ namespace TrashPickup.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class updatedAccountViewModel : IMigrationMetadata
+    public sealed partial class indexviewmodeldropdowntest : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(updatedAccountViewModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(indexviewmodeldropdowntest));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703021658105_updated AccountViewModel"; }
+            get { return "201703022305536_indexviewmodel dropdown test"; }
         }
         
         string IMigrationMetadata.Source

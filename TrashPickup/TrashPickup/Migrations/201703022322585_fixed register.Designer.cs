@@ -7,13 +7,13 @@ namespace TrashPickup.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddedGoogleMaps : IMigrationMetadata
+    public sealed partial class fixedregister : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedGoogleMaps));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(fixedregister));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703030008318_Added Google Maps"; }
+            get { return "201703022322585_fixed register"; }
         }
         
         string IMigrationMetadata.Source

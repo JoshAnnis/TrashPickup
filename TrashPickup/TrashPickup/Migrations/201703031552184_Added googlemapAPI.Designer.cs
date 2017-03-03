@@ -7,13 +7,13 @@ namespace TrashPickup.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Madedropdown : IMigrationMetadata
+    public sealed partial class AddedgooglemapAPI : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Madedropdown));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedgooglemapAPI));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703021807317_Made dropdown"; }
+            get { return "201703031552184_Added googlemapAPI"; }
         }
         
         string IMigrationMetadata.Source

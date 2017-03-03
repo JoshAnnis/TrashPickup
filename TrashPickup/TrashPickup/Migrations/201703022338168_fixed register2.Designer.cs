@@ -7,13 +7,13 @@ namespace TrashPickup.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class fixeddboAspNetUsers : IMigrationMetadata
+    public sealed partial class fixedregister2 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(fixeddboAspNetUsers));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(fixedregister2));
         
         string IMigrationMetadata.Id
         {
-            get { return "201703022039597_fixed dbo.AspNetUsers"; }
+            get { return "201703022338168_fixed register2"; }
         }
         
         string IMigrationMetadata.Source

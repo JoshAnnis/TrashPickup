@@ -249,21 +249,21 @@
     <Compile Include="Migrations\201703012137082_test.Designer.cs">
       <DependentUpon>201703012137082_test.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703021807317_Made dropdown.cs" />
-    <Compile Include="Migrations\201703021807317_Made dropdown.Designer.cs">
-      <DependentUpon>201703021807317_Made dropdown.cs</DependentUpon>
+    <Compile Include="Migrations\201703022305536_indexviewmodel dropdown test.cs" />
+    <Compile Include="Migrations\201703022305536_indexviewmodel dropdown test.Designer.cs">
+      <DependentUpon>201703022305536_indexviewmodel dropdown test.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703021658105_updated AccountViewModel.cs" />
-    <Compile Include="Migrations\201703021658105_updated AccountViewModel.Designer.cs">
-      <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
+    <Compile Include="Migrations\201703022322585_fixed register.cs" />
+    <Compile Include="Migrations\201703022322585_fixed register.Designer.cs">
+      <DependentUpon>201703022322585_fixed register.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.cs" />
-    <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.Designer.cs">
-      <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
+    <Compile Include="Migrations\201703022338168_fixed register2.cs" />
+    <Compile Include="Migrations\201703022338168_fixed register2.Designer.cs">
+      <DependentUpon>201703022338168_fixed register2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201703030008318_Added Google Maps.cs" />
-    <Compile Include="Migrations\201703030008318_Added Google Maps.Designer.cs">
-      <DependentUpon>201703030008318_Added Google Maps.cs</DependentUpon>
+    <Compile Include="Migrations\201703031552184_Added googlemapAPI.cs" />
+    <Compile Include="Migrations\201703031552184_Added googlemapAPI.Designer.cs">
+      <DependentUpon>201703031552184_Added googlemapAPI.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -422,17 +422,17 @@
     <EmbeddedResource Include="Migrations\201703012137082_test.resx">
       <DependentUpon>201703012137082_test.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703021807317_Made dropdown.resx">
-      <DependentUpon>201703021807317_Made dropdown.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703022305536_indexviewmodel dropdown test.resx">
+      <DependentUpon>201703022305536_indexviewmodel dropdown test.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703021658105_updated AccountViewModel.resx">
-      <DependentUpon>201703021658105_updated AccountViewModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703022322585_fixed register.resx">
+      <DependentUpon>201703022322585_fixed register.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703022039597_fixed dbo.AspNetUsers.resx">
-      <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703022338168_fixed register2.resx">
+      <DependentUpon>201703022338168_fixed register2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201703030008318_Added Google Maps.resx">
-      <DependentUpon>201703030008318_Added Google Maps.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201703031552184_Added googlemapAPI.resx">
+      <DependentUpon>201703031552184_Added googlemapAPI.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
