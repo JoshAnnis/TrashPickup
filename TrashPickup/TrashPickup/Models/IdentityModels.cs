@@ -23,7 +23,6 @@ namespace TrashPickup.Models
         public int AddressId { get; set; }
         
        
-        public string First_Name { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
