@@ -261,6 +261,10 @@
     <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.Designer.cs">
       <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703030008318_Added Google Maps.cs" />
+    <Compile Include="Migrations\201703030008318_Added Google Maps.Designer.cs">
+      <DependentUpon>201703030008318_Added Google Maps.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -426,6 +430,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703022039597_fixed dbo.AspNetUsers.resx">
       <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703030008318_Added Google Maps.resx">
+      <DependentUpon>201703030008318_Added Google Maps.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
