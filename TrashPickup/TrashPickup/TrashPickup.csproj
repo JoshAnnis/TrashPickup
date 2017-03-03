@@ -261,7 +261,6 @@
     <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.Designer.cs">
       <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Migrations\201703022242256_indexviewmodel dropdown.cs" />
     <Compile Include="Migrations\201703022242256_indexviewmodel dropdown.Designer.cs">
       <DependentUpon>201703022242256_indexviewmodel dropdown.cs</DependentUpon>
@@ -281,11 +280,9 @@
     <Compile Include="Migrations\201703030003117_fixed index3.cs" />
     <Compile Include="Migrations\201703030003117_fixed index3.Designer.cs">
       <DependentUpon>201703030003117_fixed index3.cs</DependentUpon>
-=======
     <Compile Include="Migrations\201703030008318_Added Google Maps.cs" />
     <Compile Include="Migrations\201703030008318_Added Google Maps.Designer.cs">
       <DependentUpon>201703030008318_Added Google Maps.cs</DependentUpon>
->>>>>>> d0ab1b900c8095c91e1af6dc6ba45a201900203f
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -453,7 +450,6 @@
     <EmbeddedResource Include="Migrations\201703022039597_fixed dbo.AspNetUsers.resx">
       <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201703022242256_indexviewmodel dropdown.resx">
       <DependentUpon>201703022242256_indexviewmodel dropdown.cs</DependentUpon>
     </EmbeddedResource>
@@ -468,10 +464,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703030003117_fixed index3.resx">
       <DependentUpon>201703030003117_fixed index3.cs</DependentUpon>
-=======
+
     <EmbeddedResource Include="Migrations\201703030008318_Added Google Maps.resx">
       <DependentUpon>201703030008318_Added Google Maps.cs</DependentUpon>
->>>>>>> d0ab1b900c8095c91e1af6dc6ba45a201900203f
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
