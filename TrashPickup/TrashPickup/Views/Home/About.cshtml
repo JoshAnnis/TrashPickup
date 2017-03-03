@@ -9,6 +9,38 @@
     Here at Trash Collection we want to make things as user friendly as possible, you can chose when to have your trask picked up or if you dont need to have it picked up you can tell us that too.
     all you have to do is sign up or login.
 </p>
+<<<<<<< HEAD
 <p>
 
 </p>
+=======
+
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h3>My Google Maps Demo</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+          var uluru = {lat: 43.034432, lng: -87.911653};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyti0b2a2Pz_sc9TKJPr09nEoBOne6Lbo&callback=initMap">
+    </script>
+</body>
+>>>>>>> d0ab1b900c8095c91e1af6dc6ba45a201900203f
