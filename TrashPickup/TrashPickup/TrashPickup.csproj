@@ -261,6 +261,26 @@
     <Compile Include="Migrations\201703022039597_fixed dbo.AspNetUsers.Designer.cs">
       <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703022242256_indexviewmodel dropdown.cs" />
+    <Compile Include="Migrations\201703022242256_indexviewmodel dropdown.Designer.cs">
+      <DependentUpon>201703022242256_indexviewmodel dropdown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703022305536_indexviewmodel dropdown test.cs" />
+    <Compile Include="Migrations\201703022305536_indexviewmodel dropdown test.Designer.cs">
+      <DependentUpon>201703022305536_indexviewmodel dropdown test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703022322585_fixed register.cs" />
+    <Compile Include="Migrations\201703022322585_fixed register.Designer.cs">
+      <DependentUpon>201703022322585_fixed register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703022338168_fixed register2.cs" />
+    <Compile Include="Migrations\201703022338168_fixed register2.Designer.cs">
+      <DependentUpon>201703022338168_fixed register2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703030003117_fixed index3.cs" />
+    <Compile Include="Migrations\201703030003117_fixed index3.Designer.cs">
+      <DependentUpon>201703030003117_fixed index3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -426,6 +446,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703022039597_fixed dbo.AspNetUsers.resx">
       <DependentUpon>201703022039597_fixed dbo.AspNetUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703022242256_indexviewmodel dropdown.resx">
+      <DependentUpon>201703022242256_indexviewmodel dropdown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703022305536_indexviewmodel dropdown test.resx">
+      <DependentUpon>201703022305536_indexviewmodel dropdown test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703022322585_fixed register.resx">
+      <DependentUpon>201703022322585_fixed register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703022338168_fixed register2.resx">
+      <DependentUpon>201703022338168_fixed register2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703030003117_fixed index3.resx">
+      <DependentUpon>201703030003117_fixed index3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

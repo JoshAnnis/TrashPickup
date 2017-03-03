@@ -9,58 +9,34 @@
 <div>
     <h4>Change your account settings</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>Password:</dt>
-        <dt>
-            [
-            @if (Model.HasPassword)
-            {
-                @Html.ActionLink("Change your password", "ChangePassword")
-            }
-            else
-            {
-                @Html.ActionLink("Create", "SetPassword")
-            }
-            ]
-        </dt>
-       
-       
+    <dl class="dl-horizontal">     
         <dt>Amount owed:</dt>
-        
-        <dd> 
-            @Html.DropDownList("Schedule Vacation", "Change Pickup Day")
-        </dd>
 
-         
-        
-    </dl>
-    
-    <style>
-        dl {
-        width: 100%;
-        overflow: hidden;
-        background: #ff0;
-        padding: 0;
-        margin: 0
-    }
-    dt {
-        float: left;
-        width: 50%;
-    /* adjust the width; make sure the total of both is 100% */
-        background: #cc0;
-        padding: 0;
-        margin: 0
-    }
-    dd {
-        float: left;
-        width: 50%;
-    /* adjust the width; make sure the total of both is 100% */
-        background: #dd0
-        padding: 0;
-        margin: 0
-    }
-    </style>
+        </dl>
 
+      
+    <form action="/Home/CategoryChosen" method="get">
+
+        <fieldset>
+            Movie Type <select id="MovieType" name="MovieType">
+
+                <option value=""></option>
+
+                <option value="0">Action</option>
+
+                <option value="1">Drama</option>
+
+                <option selected="selected" value="2">Comedy</option>
+
+                <option value="3">Science Fiction</option>
+
+            </select>
+
+            <p><input type="submit" value="Submit" /> </p>
+
+        </fieldset>
+
+    </form>
 
 
 

@@ -12,7 +12,7 @@ namespace TrashPickup.Models
     {
         [Key]
         public int Id { get; set; }
-        public Address address { get; set; }
+        public string street { get; set; }
         
         
         public int StateId { get; set; }
