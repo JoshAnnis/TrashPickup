@@ -26,5 +26,23 @@ namespace TrashPickup.Controllers
 
             return View();
         }
+
+
+        public ActionResult SelectCategory()
+        {
+
+            List<SelectListItem> items = new List<SelectListItem>();
+
+            items.Add(new SelectListItem { Text = "DebitCard", Value = "0" });
+
+            items.Add(new SelectListItem { Text = "CreditCard", Value = "2", Selected = true });
+
+            items.Add(new SelectListItem { Text = "PayPal", Value = "3" });
+
+            ViewBag.MovieType = items;
+
+            return View();
+
+        }
     }
 }

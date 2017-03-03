@@ -156,7 +156,7 @@ namespace TrashPickup.Controllers
                     var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
                     user.Address = new Address();
                     user.Address = model.Address;
-
+                
                     user.Address.Zip = new Zip();
                     user.Address.Zip = model.Zip;
 

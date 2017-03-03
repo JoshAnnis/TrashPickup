@@ -6,74 +6,14 @@
 <h2>@ViewBag.Title.</h2>
 
 <p class="text-success">@ViewBag.StatusMessage</p>
-<div>
-    <h4>Change your account settings</h4>
-    <hr />
-    <dl class="dl-horizontal">     
-        <dt>Amount owed:</dt>
-<<<<<<< HEAD
-=======
-        
-        <dd> 
-            @Html.DropDownList("Schedule Vacation", "Change Pickup Day")
-        </dd>
 
+<hr />
+<dt>Amount owed: $95</dt>
 
-        
-    </dl>
-    
-    <style>
-        dl {
-        width: 100%;
-        overflow: hidden;
-        padding: 0;
-        margin: 0
-    }
-    dt {
-        float: left;
-        width: 50%;
-    /* adjust the width; make sure the total of both is 100% */
-        padding: 0;
-        margin: 0
-    }
-    dd {
-        float: left;
-        width: 50%;
-    /* adjust the width; make sure the total of both is 100% */
-        padding: 0;
-        margin: 0
-    }
-    </style>
->>>>>>> d0ab1b900c8095c91e1af6dc6ba45a201900203f
-
-        </dl>
-
-      
-    <form action="/Home/CategoryChosen" method="get">
-
-        <fieldset>
-            Movie Type <select id="MovieType" name="MovieType">
-
-                <option value=""></option>
-
-                <option value="0">Action</option>
-
-                <option value="1">Drama</option>
-
-                <option selected="selected" value="2">Comedy</option>
-
-                <option value="3">Science Fiction</option>
-
-            </select>
-
-            <p><input type="submit" value="Submit" /> </p>
-
-        </fieldset>
-
-    </form>
+<dt>
+    Pick up day: 
+</dt>
 
 
 
-
-</div>
 
