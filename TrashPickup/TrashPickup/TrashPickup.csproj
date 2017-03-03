@@ -197,6 +197,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AddressesController.cs" />
+    <Compile Include="Controllers\ApplicationUsersController.cs" />
     <Compile Include="Controllers\CityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -265,6 +266,7 @@
     <Compile Include="Migrations\201703031552184_Added googlemapAPI.Designer.cs">
       <DependentUpon>201703031552184_Added googlemapAPI.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201703032034523_worked on the pickup date.cs" />
     <Compile Include="Migrations\201703032034523_worked on the pickup date.Designer.cs">
       <DependentUpon>201703032034523_worked on the pickup date.cs</DependentUpon>
@@ -272,8 +274,14 @@
     <Compile Include="Migrations\201703032235267_pick up date reworked.cs" />
     <Compile Include="Migrations\201703032235267_pick up date reworked.Designer.cs">
       <DependentUpon>201703032235267_pick up date reworked.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\201703032217494_Added Account Role Model.cs" />
+    <Compile Include="Migrations\201703032217494_Added Account Role Model.Designer.cs">
+      <DependentUpon>201703032217494_Added Account Role Model.cs</DependentUpon>
+>>>>>>> 9fdbd156d456bbbd12995caa26a5c2e92ec4e080
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccountRole.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\City.cs" />
@@ -387,6 +395,11 @@
     <Content Include="Views\Zips\Details.cshtml" />
     <Content Include="Views\Zips\Edit.cshtml" />
     <Content Include="Views\Zips\Index.cshtml" />
+    <Content Include="Views\ApplicationUsers\Create.cshtml" />
+    <Content Include="Views\ApplicationUsers\Delete.cshtml" />
+    <Content Include="Views\ApplicationUsers\Details.cshtml" />
+    <Content Include="Views\ApplicationUsers\Edit.cshtml" />
+    <Content Include="Views\ApplicationUsers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -442,11 +455,16 @@
     <EmbeddedResource Include="Migrations\201703031552184_Added googlemapAPI.resx">
       <DependentUpon>201703031552184_Added googlemapAPI.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201703032034523_worked on the pickup date.resx">
       <DependentUpon>201703032034523_worked on the pickup date.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703032235267_pick up date reworked.resx">
       <DependentUpon>201703032235267_pick up date reworked.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\201703032217494_Added Account Role Model.resx">
+      <DependentUpon>201703032217494_Added Account Role Model.cs</DependentUpon>
+>>>>>>> 9fdbd156d456bbbd12995caa26a5c2e92ec4e080
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

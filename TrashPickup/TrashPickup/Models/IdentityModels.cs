@@ -21,8 +21,12 @@ namespace TrashPickup.Models
         public Address Address { get; set; }
         [ForeignKey("Address")]
         public int AddressId { get; set; }
-        
-       
+
+        public AccountRole AccountRole { get; set; }
+        [ForeignKey("AccountRole")]
+        public int AccountRoleId { get; set; }
+
+
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -47,10 +51,6 @@ namespace TrashPickup.Models
         public DbSet<State> State { get; set; }
         public DbSet<Payment> Payment { get; set; }
         public DbSet<PayPal> PayPal { get; set; }
-
-
-
-
-
+        public DbSet<AccountRole> AccountRole { get; set; }
     }
 }

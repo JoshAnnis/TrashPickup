@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TrashPickup.Models
 {
+    
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
@@ -65,6 +66,7 @@ namespace TrashPickup.Models
 
     public class RegisterViewModel
     {
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
@@ -80,6 +82,14 @@ namespace TrashPickup.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public AccountRole AccountRole { get; set; }
+        [ForeignKey("AccountRole")]
+        [Display(Name = "Account Type")]
+        [Required]
+        public int AccountRoleId { get; set; }
+
+        public IEnumerable<AccountRole> AccountRoles { get; set; }
 
 
 
