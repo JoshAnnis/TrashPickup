@@ -261,6 +261,10 @@
     <Compile Include="Migrations\201703022338168_fixed register2.Designer.cs">
       <DependentUpon>201703022338168_fixed register2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703031552184_Added googlemapAPI.cs" />
+    <Compile Include="Migrations\201703031552184_Added googlemapAPI.Designer.cs">
+      <DependentUpon>201703031552184_Added googlemapAPI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -426,6 +430,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703022338168_fixed register2.resx">
       <DependentUpon>201703022338168_fixed register2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703031552184_Added googlemapAPI.resx">
+      <DependentUpon>201703031552184_Added googlemapAPI.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
