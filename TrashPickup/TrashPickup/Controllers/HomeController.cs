@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TrashPickup.Views.Home;
 
 namespace TrashPickup.Controllers
 {
@@ -10,19 +11,19 @@ namespace TrashPickup.Controllers
     {
         public ActionResult Index()
         {
-           if(User.IsInRole("member"))
-           {
-                return View("MemberPage");
-            }
-           else if (User.IsInRole("worker"))
-            {
-                return View("WorkerPage");
-            }
-            else
+            //if (User.IsInRole("member"))
+            //{
+            //    return View(MemberPage);
+            //}
+            //else if (User.IsInRole("worker"))
+            //{
+            //    return View(WorkerPage);
+            //}
+            //else
             {
                 return View();
             }
-      }
+        }
 
         public ActionResult About()
         {

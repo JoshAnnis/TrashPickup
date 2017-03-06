@@ -83,27 +83,18 @@ namespace TrashPickup.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        public AccountRole AccountRole { get; set; }
-        [ForeignKey("Role")]
-        [Display(Name = "Account Type")]
-        [Required]
-        public int AccountRoleId { get; set; }
-
-        public IEnumerable<AccountRole> Role { get; set; }
-
-
-
+        public string Roles { get; set; }
+        
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public Cities City { get; set; }
         public State State { get; set; }
+        
+        [DataType(DataType.PostalCode)]
         public Zip Zip { get; set; }
+        [Display(Name ="Zipcode")]
+
         public Address Address { get; set; }
-
-
-
-
-
 
     }
 

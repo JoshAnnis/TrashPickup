@@ -30,8 +30,8 @@ namespace TrashPickup.Migrations
             //    );
             //
             //context.Roles.AddOrUpdate(r => r.Name,
-            //    new IdentityRole{ Name = "member"},
-            //    new IdentityRole { Name = "worker"}
+            //    new IdentityRole { Name = "member" },
+            //    new IdentityRole { Name = "worker" }
             //    );
 
             var RoleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
@@ -39,14 +39,14 @@ namespace TrashPickup.Migrations
             IdentityResult roleResult;
             foreach (var roleName in roleNames)
             {
-                if(!RoleManager.RoleExists(roleName))
+                if (!RoleManager.RoleExists(roleName))
                 {
                     roleResult = RoleManager.Create(new IdentityRole(roleName));
                 }
 
             }
             var UserManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
-            UserManager.AddToRole("052980e1-ad12-4fe7-9d57-7c6bda670ce4", "Member");
+            //UserManager.AddToRole("a55c8229-c6c8-470e-852e-4e3269733809", "Worker");
 
 
 

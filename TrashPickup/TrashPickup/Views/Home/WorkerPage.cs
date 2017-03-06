@@ -7,5 +7,10 @@ namespace TrashPickup.Views.Home
 {
     public class WorkerPage
     {
+
+        public void StartPage()
+        {
+            Console.WriteLine("oefjhglaedkfjgnbmlaekdrghnbalekdfzbm");
+        }
     }
 }
