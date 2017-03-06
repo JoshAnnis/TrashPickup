@@ -67,10 +67,10 @@
         </div>
     </div>
     <div class="form-group">
-        @Html.LabelFor(m => m.AccountRoleId, new { @class = "col-md-2 control-label" })
+        @Html.LabelFor(m => m.Role, new { @class = "col-md-2 control-label" })
         <div class="col-md-10">
-            @Html.DropDownListFor(m => m.AccountRoleId, new SelectList(Model.AccountRoles, "Id", "Type"), "", new { @class = "form-control" })
-            @Html.ValidationMessageFor(m => m.AccountRoleId)
+         @Html.PasswordFor(m => m.Role, new { @class = "form-control" })
+           
         </div>
     </div>
     <div class="form-group">

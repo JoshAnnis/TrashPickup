@@ -84,12 +84,12 @@ namespace TrashPickup.Models
         public string ConfirmPassword { get; set; }
 
         public AccountRole AccountRole { get; set; }
-        [ForeignKey("AccountRole")]
+        [ForeignKey("Role")]
         [Display(Name = "Account Type")]
         [Required]
         public int AccountRoleId { get; set; }
 
-        public IEnumerable<AccountRole> AccountRoles { get; set; }
+        public IEnumerable<AccountRole> Role { get; set; }
 
 
 

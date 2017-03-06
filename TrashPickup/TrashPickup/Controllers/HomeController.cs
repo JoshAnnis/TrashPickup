@@ -10,8 +10,19 @@ namespace TrashPickup.Controllers
     {
         public ActionResult Index()
         {
-            return View();
-        }
+           if(User.IsInRole("member"))
+           {
+                return View("MemberPage");
+            }
+           else if (User.IsInRole("worker"))
+            {
+                return View("WorkerPage");
+            }
+            else
+            {
+                return View();
+            }
+      }
 
         public ActionResult About()
         {
